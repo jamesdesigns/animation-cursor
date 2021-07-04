@@ -6,6 +6,7 @@
 
  body {
   font-family: 'Poppins', sans-serif;
+  cursor: none;
  }
 
  nav {
@@ -23,6 +24,10 @@
    justify-content: space-between;
  }
 
+ .nav-links li {
+   padding: 1rem;
+ }
+
  .nav-links,
  h1 {
    flex: 1;
@@ -35,4 +40,24 @@
    border-radius: 50%;
    position: absolute;
    transform: translate(-50%, -50%);
+   pointer-events: none;
+   transition: all 0.3s ease;
+   transition-property: background, transform;
+   transform-origin: 100% 100%;
+   z-index: -1;
+   backdrop-filter: blur(3px);
+ }
+
+ .link-grow {
+   transform: scale(2);
+   background-color: black;
+ }
+
+ .hovered-link {
+   color: white;
+ }
+
+ .front-cover img {
+   position: relative;
+   z-index: -3;
  }
