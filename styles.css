@@ -97,3 +97,13 @@
    box-shadow: 5px 5px 10px #ccc;
    margin-bottom: 60px;
  }
+
+ .front-desc {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 90%;
+   align-items: center;
+   margin: auto;
+   padding-bottom: 30px;
+ }
