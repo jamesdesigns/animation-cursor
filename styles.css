@@ -4,11 +4,16 @@
    box-sizing: border-box;
  }
 
+ .margin-top-30 { margin-top: 30px; }
+
  body {
   font-family: 'Poppins', sans-serif;
   cursor: none;
   color: #181c30;
  }
+
+ h2 { margin-left: 5%; }
+ p { margin-left: 5%; }
 
  .stock-charts {
    width: 100%;
