@@ -7,6 +7,7 @@
  body {
   font-family: 'Poppins', sans-serif;
   cursor: none;
+  color: #181c30;
  }
 
  .stock-charts {
@@ -24,6 +25,7 @@
    margin: auto;
  }
 
+
  .nav-links {
    display: flex;
    list-style: none;
@@ -39,9 +41,18 @@
    flex: 1;
  }
 
+ a.menu-link {
+   color: #2d3a6f;
+   text-decoration: none;
+ }
+
+ a.menu-link:hover {
+   color: white;
+ }
+
  .cursor {
-   width: 3rem;
-   height: 3rem;
+   width: 2.5rem;
+   height: 2.5rem;
    border: 2px solid #2d3a6f;
    border-radius: 50%;
    position: absolute;
